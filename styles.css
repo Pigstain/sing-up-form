@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    background-color: azure;
+}
+img{
+    width: 60%;
+    height: 800px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    align-items: center;
+    padding-top: 100px;
+    padding-left:25px ;
+}
+p{
+        word-wrap: break-word;
+}
+.form-div{
+    background-color: white;
+    box-shadow: 1px 1px;
+    border: none;
+}
+.names{
+    display: flex;
+}
+.email-phone{
+    display: flex;
+}
+.passwords{
+    display: flex;
+}
+input[type=text], input[type=email], input[type=tel], input[type=password]{
+    width: 60%;
+    height: 10px;
+    margin-bottom: 5px;
+    padding: 6px;
+    border: 1px solid;
+    border-color: #800442;
+   border-radius: 5px;
+   display: block;
+   align-items: center;
+
+}
+button{
+    
+    
+    margin: 0 auto;
+    padding: 3px;
+    border: 1px solid;
+    border-color: #800442;
+   border-radius: 5px;
+}
