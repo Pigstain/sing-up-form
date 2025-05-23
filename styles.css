@@ -2,13 +2,39 @@ body{
     display: flex;
     background-color: azure;
 }
-img{
-    width: 60%;
+.img-container{
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: "norse bold";
+  background-color: black;
+  opacity: 0.5;
+  background-size: cover;
+  width:600px;
+  color: white;
+}
+
+.img1{
+    width: 600px;
     height: 800px;
+    background-size: cover;
+}
+.img2{
+    width:50px;
+    height: 50px;
 }
 .container{
     display: flex;
     flex-direction: column;
+    width: 800px;
 }
 .text{
     align-items: center;
@@ -22,6 +48,7 @@ p{
     background-color: white;
     box-shadow: 1px 1px;
     border: none;
+    background-size: cover;
 }
 .names{
     display: flex;
